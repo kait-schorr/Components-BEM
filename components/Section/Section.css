@@ -5,13 +5,13 @@
     width: 100%;
     background: yellow;
 }
-
 .Section-Header{
     height: 100px;
     justify-content: center;
 }
-
-.Section .Section--description{
+.Section--description{
     display: inline-block;
-    width: 40%;
+    width: 48.5%;
+    padding-right: 5px;
+    margin: 0;
 }

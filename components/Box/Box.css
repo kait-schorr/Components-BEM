@@ -1,5 +1,5 @@
 .Box {
     background: pink;
-    height: 50px;
-    width: 45%;
+    padding: 10px;
+    text-align: justify;
 }
