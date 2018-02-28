@@ -6,10 +6,20 @@
     background: yellow;
 }
 .Section-Header{
+    display: inline-block;
     height: 100px;
     justify-content: center;
     font-size: 20px;
     border: 3px solid black;
+    text-align: center;
+}
+.Section__dropDown {
+    display: inline-block;
+    width: 15%;
+}
+.Section__header{
+    display: inline-block;
+    width: 80%;
 }
 .Section--description{
     display: inline-block;
