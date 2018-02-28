@@ -11,7 +11,13 @@
 }
 .Section--description{
     display: inline-block;
-    width: 48.5%;
+    width: 48%;
     padding-right: 5px;
     margin: 0;
+}
+@media (max-width: 600px) {
+    .Section--description {
+        width: 100%;
+        display: block;
+    }
 }
