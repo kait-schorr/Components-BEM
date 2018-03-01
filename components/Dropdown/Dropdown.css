@@ -1,5 +1,22 @@
-.Dropdown{
+.Dropdown {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
     border: 3px solid black;
-    height: 50px;
     width: 50px;
+    height: 50px;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 64px;
+    border: 3px solid black;
+    width: 90px;
+    text-align: center;
+    background-color: white;
+    display: none;
 }
