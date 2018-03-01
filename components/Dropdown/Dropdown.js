@@ -3,7 +3,7 @@ class Dropdown {
       this.element = element;
   
       this.element.parentNode.addEventListener("click", () => {
-        this.element.classList.add("myDropDown");
+        this.element.classList.add("dropdown__content");
       });
     }
   }
