@@ -11,7 +11,7 @@
     height: 50px;
 }
 
-.dropdown-content {
+.dropdown__content {
     position: absolute;
     top: 64px;
     border: 3px solid black;
@@ -19,4 +19,12 @@
     text-align: center;
     background-color: white;
     display: none;
+}
+
+.dropdown__content--item a {
+    text-decoration: none;
+}
+
+.dropdown__content--items {
+    display: inline;
 }
