@@ -1,14 +1,20 @@
 class Dropdown {
     constructor(element) {
       this.element = element;
-  
+      this.element.isDisplayed = false;  
       this.element.parentNode.addEventListener("click", () => {
-        this.element.classList.add("dropdown__content");
+          console.log("CLICKED");
+        if(!this.element.isDisplayed){
+            this.element.classList.add("Dropdown--display");
+            this.element.isDisplayed = true;
+        }
+        else{
+            this.element.classList.remove("Dropdown--display");
+            this.element.isDisplayed = false;
+        }
       });
     }
   }
   
-  let dropdowncontent = document.getElementsByClassName("dropdown-content");
-  dropdowncontent = Array.from(dropdowncontent).map(content => {
-    return new Dropdown(content)
-  });
+  let drop = document.getElementsByClassName("Dropdown__content")[0];
+  drop = new Dropdown(drop);
